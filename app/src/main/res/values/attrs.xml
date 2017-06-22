@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="EraseView">
+        <attr name="cover_color" format="color"/>
+        <attr name="cover_text" format="string"/>
+        <attr name="cover_text_color" format="color"/>
+        <attr name="src" format="reference"/>
+    </declare-styleable>
+    <declare-styleable name="CircleImageView">
+        <attr name="img_src" format="reference"/>
+    </declare-styleable>
+</resources>
