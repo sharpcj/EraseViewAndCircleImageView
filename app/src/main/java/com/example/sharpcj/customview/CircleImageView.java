@@ -95,5 +95,6 @@ public class CircleImageView extends View {
         canvas.drawBitmap(currentBitmap,0,0,mPaint);
 
         canvas.restoreToCount(saveIndex);
+		currentBitmap.recycle();
     }
 }
